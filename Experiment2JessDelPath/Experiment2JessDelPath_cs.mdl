@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.90"
+    ComputedModelVersion    "1.97"
     NumModelReferences	    0
     NumTestPointedSignals   4
     TestPointedSignal {
@@ -1029,7 +1029,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [0.0, 0.0, 1536.0, 824.0]
+      Location		      [-8.0, -8.0, 1936.0, 1056.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -1051,11 +1051,11 @@ Model {
 	$ObjectID		5
 	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	ViewObjType		"SimulinkTopLevel"
-	LoadSaveID		"0"
-	Extents			[1289.0, 644.0]
-	ZoomFactor		[1.5]
-	Offset			[10.841779859480523, 20.632626782175087]
+	ViewObjType		"SimulinkSubsys"
+	LoadSaveID		"6278"
+	Extents			[1689.0, 875.0]
+	ZoomFactor		[1.25]
+	Offset			[412.01428571428767, 39.595240856919418]
       }
       Object {
 	$PropName		"DockComponentsInfo"
@@ -1071,15 +1071,15 @@ Model {
 	Width			[640]
 	Height			[480]
       }
-      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAACvfwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAADpPwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAQAAAAr0AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAQAAAA6QAAABjAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAAKwD///8AAAUvAAACvQAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAAKwD///8AAAa/AAADpAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
       "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAL9/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+      "////wEAAAMs/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
   HideAutomaticNames	  on
@@ -1087,11 +1087,11 @@ Model {
   Creator		  "PRESCAN"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "ss7dr"
+  LastModifiedBy	  "lf9u"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Oct 04 17:49:52 2018"
-  RTWModifiedTimeStamp	  460576191
-  ModelVersionFormat	  "1.%<AutoIncrement:90>"
+  LastModifiedDate	  "Wed Oct 17 18:52:33 2018"
+  RTWModifiedTimeStamp	  461703061
+  ModelVersionFormat	  "1.%<AutoIncrement:97>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -2614,7 +2614,7 @@ Model {
   System {
     Name		    "Experiment2JessDelPath_cs"
     Location		    [0, 0, 1536, 824]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     ModelBrowserVisibility  on
     ModelBrowserWidth	    200
@@ -2626,9 +2626,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "150"
+    ZoomFactor		    "125"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "6423"
+    SIDHighWatermark	    "6439"
     Block {
       BlockType		      SubSystem
       Name		      "ANIM_Boy_150_1"
@@ -4068,7 +4068,7 @@ Model {
       }
       System {
 	Name			"Audi_A8_Sedan_1"
-	Location		[0, 0, 1536, 824]
+	Location		[-8, -8, 1928, 1048]
 	Open			off
 	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	on
@@ -4081,7 +4081,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"200"
 	Block {
 	  BlockType		  Inport
 	  Name			  "SELF_Audi_A8_Sedan_1"
@@ -28859,7 +28859,7 @@ Model {
 	  Variant		  off
 	  System {
 	    Name		    "HID_Control"
-	    Location		    [1704, 221, 2520, 760]
+	    Location		    [-8, -8, 1928, 1048]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  on
@@ -30037,8 +30037,8 @@ Model {
 	      Variant		      off
 	      System {
 		Name			"Custom_Control"
-		Location		[202, 34, 1514, 804]
-		Open			off
+		Location		[-8, -8, 1928, 1048]
+		Open			on
 		PortBlocksUseCompactNotation off
 		ModelBrowserVisibility	on
 		ModelBrowserWidth	200
@@ -30050,7 +30050,7 @@ Model {
 		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"80"
+		ZoomFactor		"125"
 		Block {
 		  BlockType		  Inport
 		  Name			  "Periodic: On/Off [1/0]"
@@ -30137,6 +30137,22 @@ Model {
 		  Position		  [855, 340, 915, 370]
 		  ZOrder		  11
 		  Value			  "[-1, 1:6]"
+		}
+		Block {
+		  BlockType		  Constant
+		  Name			  "Constant1"
+		  SID			  "6431"
+		  Position		  [870, 300, 900, 330]
+		  ZOrder		  13
+		  Value			  "0"
+		}
+		Block {
+		  BlockType		  Constant
+		  Name			  "Constant2"
+		  SID			  "6437"
+		  Position		  [845, 680, 905, 710]
+		  ZOrder		  17
+		  Value			  "[-1, 1:5]"
 		}
 		Block {
 		  BlockType		  DataTypeConversion
@@ -30474,6 +30490,166 @@ Model {
 		  enableHaptic		  on
 		}
 		Block {
+		  BlockType		  SubSystem
+		  Name			  "MATLAB Function"
+		  SID			  "6436"
+		  Ports			  [4, 1]
+		  Position		  [970, 530, 1250, 715]
+		  ZOrder		  16
+		  ErrorFcn		  "Stateflow.Translate.translate"
+		  PermitHierarchicalResolution "ExplicitOnly"
+		  TreatAsAtomicUnit	  on
+		  RequestExecContextInheritance	off
+		  SFBlockType		  "MATLAB Function"
+		  Variant		  off
+		  System {
+		    Name		    "MATLAB Function"
+		    Location		    [223, 338, 826, 833]
+		    Open		    off
+		    PortBlocksUseCompactNotation off
+		    ModelBrowserVisibility  on
+		    ModelBrowserWidth	    200
+		    ScreenColor		    "white"
+		    PaperOrientation	    "landscape"
+		    PaperPositionMode	    "auto"
+		    PaperType		    "usletter"
+		    PaperUnits		    "inches"
+		    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+		    TiledPageScale	    1
+		    ShowPageBoundaries	    off
+		    ZoomFactor		    "100"
+		    SIDHighWatermark	    "24"
+		    Block {
+		    BlockType		    Inport
+		    Name		    "trustSignals"
+		    SID			    "6436::1"
+		    Position		    [20, 101, 40, 119]
+		    ZOrder		    -1
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    Inport
+		    Name		    "trustDownBtn"
+		    SID			    "6436::23"
+		    Position		    [20, 136, 40, 154]
+		    ZOrder		    14
+		    Port		    "2"
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    Inport
+		    Name		    "trustUpBtn"
+		    SID			    "6436::24"
+		    Position		    [20, 171, 40, 189]
+		    ZOrder		    15
+		    Port		    "3"
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    Inport
+		    Name		    "trustSemantics"
+		    SID			    "6436::22"
+		    Position		    [20, 206, 40, 224]
+		    ZOrder		    13
+		    Port		    "4"
+		    IconDisplay		    "Port number"
+		    }
+		    Block {
+		    BlockType		    Demux
+		    Name		    " Demux "
+		    SID			    "6436::20"
+		    Ports		    [1, 1]
+		    Position		    [270, 230, 320, 270]
+		    ZOrder		    11
+		    Outputs		    "1"
+		    }
+		    Block {
+		    BlockType		    S-Function
+		    Name		    " SFunction "
+		    SID			    "6436::19"
+		    Tag			    "Stateflow S-Function Experiment2JessDelPath_cs 2"
+		    Ports		    [4, 2]
+		    Position		    [180, 102, 230, 203]
+		    ZOrder		    10
+		    FunctionName	    "sf_sfun"
+		    PortCounts		    "[4 2]"
+		    SFunctionDeploymentMode off
+		    EnableBusSupport	    off
+		    SFcnIsStateOwnerBlock   off
+		    Port {
+		    PortNumber		    2
+		    Name		    "trust"
+		    }
+		    }
+		    Block {
+		    BlockType		    Terminator
+		    Name		    " Terminator "
+		    SID			    "6436::21"
+		    Position		    [460, 241, 480, 259]
+		    ZOrder		    12
+		    }
+		    Block {
+		    BlockType		    Outport
+		    Name		    "trust"
+		    SID			    "6436::5"
+		    Position		    [460, 101, 480, 119]
+		    ZOrder		    -5
+		    IconDisplay		    "Port number"
+		    }
+		    Line {
+		    ZOrder		    33
+		    SrcBlock		    "trustSignals"
+		    SrcPort		    1
+		    DstBlock		    " SFunction "
+		    DstPort		    1
+		    }
+		    Line {
+		    ZOrder		    34
+		    SrcBlock		    "trustDownBtn"
+		    SrcPort		    1
+		    DstBlock		    " SFunction "
+		    DstPort		    2
+		    }
+		    Line {
+		    ZOrder		    35
+		    SrcBlock		    "trustUpBtn"
+		    SrcPort		    1
+		    DstBlock		    " SFunction "
+		    DstPort		    3
+		    }
+		    Line {
+		    ZOrder		    36
+		    SrcBlock		    "trustSemantics"
+		    SrcPort		    1
+		    DstBlock		    " SFunction "
+		    DstPort		    4
+		    }
+		    Line {
+		    Name		    "trust"
+		    ZOrder		    37
+		    Labels		    [0, 0]
+		    SrcBlock		    " SFunction "
+		    SrcPort		    2
+		    DstBlock		    "trust"
+		    DstPort		    1
+		    }
+		    Line {
+		    ZOrder		    38
+		    SrcBlock		    " Demux "
+		    SrcPort		    1
+		    DstBlock		    " Terminator "
+		    DstPort		    1
+		    }
+		    Line {
+		    ZOrder		    39
+		    SrcBlock		    " SFunction "
+		    SrcPort		    1
+		    DstBlock		    " Demux "
+		    DstPort		    1
+		    }
+		  }
+		}
+		Block {
 		  BlockType		  Mux
 		  Name			  "Mux"
 		  SID			  "6304"
@@ -30588,7 +30764,7 @@ Model {
 		  Name			  "Selector4"
 		  SID			  "6313"
 		  Ports			  [1, 1]
-		  Position		  [865, 296, 905, 334]
+		  Position		  [865, 541, 905, 579]
 		  ZOrder		  8
 		  IndexMode		  "Zero-based"
 		  InputPortWidth	  "32"
@@ -30620,6 +30796,32 @@ Model {
 		  InputPortWidth	  "32"
 		  IndexOptions		  "Index vector (dialog)"
 		  Indices		  "0"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector7"
+		  SID			  "6438"
+		  Ports			  [1, 1]
+		  Position		  [865, 601, 905, 639]
+		  ZOrder		  18
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "32"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "1"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector8"
+		  SID			  "6439"
+		  Ports			  [1, 1]
+		  Position		  [820, 631, 860, 669]
+		  ZOrder		  19
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "32"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "2"
 		  OutputSizes		  "1"
 		}
 		Block {
@@ -31193,22 +31395,14 @@ Model {
 		  DstPort		  1
 		}
 		Line {
-		  ZOrder		  51
-		  Labels		  [-1, 0]
-		  SrcBlock		  "Selector4"
-		  SrcPort		  1
-		  DstBlock		  "Gear Button Logic"
-		  DstPort		  1
-		}
-		Line {
 		  ZOrder		  52
 		  Labels		  [-1, 0]
 		  SrcBlock		  "Data Type Conversion4"
 		  SrcPort		  1
-		  Points		  [31, 0; 0, 120]
+		  Points		  [31, 0; 0, 200]
 		  Branch {
 		    ZOrder		    53
-		    Points		    [0, 80; 1, 0]
+		    Points		    [1, 0]
 		    Branch {
 		    ZOrder		    54
 		    Points		    [0, 40]
@@ -31223,8 +31417,18 @@ Model {
 		  }
 		  Branch {
 		    ZOrder		    56
+		    Points		    [0, 165]
+		    Branch {
+		    ZOrder		    70
+		    Points		    [0, 60]
+		    DstBlock		    "Selector7"
+		    DstPort		    1
+		    }
+		    Branch {
+		    ZOrder		    67
 		    DstBlock		    "Selector4"
 		    DstPort		    1
+		    }
 		  }
 		}
 		Line {
@@ -31233,6 +31437,45 @@ Model {
 		  SrcPort		  2
 		  DstBlock		  "Data Type Conversion4"
 		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  61
+		  SrcBlock		  "Constant1"
+		  SrcPort		  1
+		  DstBlock		  "Gear Button Logic"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  63
+		  SrcBlock		  "Selector4"
+		  SrcPort		  1
+		  Points		  [45, 0]
+		  DstBlock		  "MATLAB Function"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  65
+		  SrcBlock		  "Constant2"
+		  SrcPort		  1
+		  Points		  [23, 0; 0, -5]
+		  DstBlock		  "MATLAB Function"
+		  DstPort		  4
+		}
+		Line {
+		  ZOrder		  66
+		  SrcBlock		  "Selector7"
+		  SrcPort		  1
+		  Points		  [45, 0]
+		  DstBlock		  "MATLAB Function"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  73
+		  SrcBlock		  "Selector8"
+		  SrcPort		  1
+		  Points		  [45, 0; 0, -5]
+		  DstBlock		  "MATLAB Function"
+		  DstPort		  3
 		}
 	      }
 	    }
@@ -48255,7 +48498,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "35"
+	    ZoomFactor		    "125"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "In1"
@@ -54533,7 +54776,7 @@ Model {
       BlockType		      SubSystem
       Name		      "Controller"
       SID		      "5"
-      Description	      "51650BA059006CFBCC0CD89DBFEE4B014E41346E597E8424FE61543F5802BFE0"
+      Description	      "17D52F8A9DEB9AE06A008973A3A93C07839AD31A4164A6CF93B222D0232E2F89"
       Ports		      []
       Position		      [20, 30, 120, 130]
       ZOrder		      -1
@@ -122873,7 +123116,7 @@ Model {
       ZOrder		      -8
     }
     Annotation {
-      SID		      "6417"
+      SID		      "6424"
       Name		      "======\nNum ID\n======\n51\n21\n52\n53\n136\n137\n138\n139\n140\n141\n142\n143\n144\n145\n146\n147\n7"
       Tag		      "ObjectOverview/data"
       Position		      [710, 30, 746, 272]
@@ -122881,10 +123124,10 @@ Model {
       HorizontalAlignment     "right"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -114
+      ZOrder		      -121
     }
     Annotation {
-      SID		      "6418"
+      SID		      "6425"
       Name		      "=============\nOBU-Beacon ID\n=============\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
       Tag		      "ObjectOverview/data"
       Position		      [766, 30, 843, 272]
@@ -122892,10 +123135,10 @@ Model {
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -115
+      ZOrder		      -122
     }
     Annotation {
-      SID		      "6419"
+      SID		      "6426"
       Name		      "=======\nType ID\n=======\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n1\n1\n1"
       Tag		      "ObjectOverview/data"
       Position		      [863, 30, 905, 272]
@@ -122903,10 +123146,10 @@ Model {
       HorizontalAlignment     "right"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -116
+      ZOrder		      -123
     }
     Annotation {
-      SID		      "6420"
+      SID		      "6427"
       Name		      "========\nType Tag\n========\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\n"
       "Human\nHuman\nHuman\nHuman\nCar\nCar\nCar"
       Tag		      "ObjectOverview/data"
@@ -122915,30 +123158,30 @@ Model {
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -117
+      ZOrder		      -124
     }
     Annotation {
-      SID		      "6421"
+      SID		      "6428"
       Name		      "==\nSD\n==\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY"
       Tag		      "ObjectOverview/data"
       Position		      [993, 30, 1008, 272]
       InternalMargins	      [0, 0, 0, 0]
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -118
+      ZOrder		      -125
     }
     Annotation {
-      SID		      "6422"
+      SID		      "6429"
       Name		      "==\nCD\n==\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN"
       Tag		      "ObjectOverview/data"
       Position		      [1028, 30, 1044, 272]
       InternalMargins	      [0, 0, 0, 0]
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -119
+      ZOrder		      -126
     }
     Annotation {
-      SID		      "6423"
+      SID		      "6430"
       Name		      "====================\nName\n====================\nCyclingCyclist2_1\nCyclingCyclist2_2\nCyclingCycl"
       "ist2_3\nCyclingCyclist2_4\nBoy_150_1\nFemale_Regular_wRaincoat_1\nMan_African_1\nMale_Old_White_WithStick_1\nMal"
       "e_Regular_BendingOver_1\nFemale_wLongCoat_1\nMale_Regular_wBicycle_1\nMan_African_2\nCyclingCyclist2_5\nCyclingC"
@@ -122949,7 +123192,7 @@ Model {
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -120
+      ZOrder		      -127
     }
   }
 }
@@ -124328,26 +124571,28 @@ Stateflow {
     created		    "11-Apr-2018 09:58:33"
     isLibrary		    0
     sfVersion		    80000012
-    firstTarget		    12
+    firstTarget		    22
   }
   chart {
     id			    2
     machine		    1
-    name		    "Audi_A8_Sedan_1/HID_Control/Custom_Control/Gear Button Logic"
-    windowPosition	    [606 368.75 213 385]
+    name		    "Audi_A8_Sedan_1/HID_Control/Custom_Control/MATLAB Function"
+    windowPosition	    [422 539.941 189 413]
     viewLimits		    [0 156.75 0 153.75]
-    screen		    [1 1 1920 1080 1.333333333333333]
+    screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 3 0 0]
     viewObj		    2
-    ssIdHighWaterMark	    9
+    visible		    1
+    subviewS {
+    }
+    ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
-    chartFileNumber	    10
+    chartFileNumber	    2
     disableImplicitCasting  1
     eml {
-      name		      "gearButtonLogic"
+      name		      "trustLogic"
     }
-    supportVariableSizing   0
     firstData		    4
     firstTransition	    10
     firstJunction	    9
@@ -124366,31 +124611,27 @@ Stateflow {
     decomposition	    CLUSTER_STATE
     eml {
       isEML		      1
-      script		      "function gear = gearButtonLogic(gearButtonSignals, gearSemantics, shiftDownBtn, shiftUpBtn)\n%#em"
-      "l\n\n% example signals for 1 frame:\n%gearButtonSignals = [  0 0 1 0 0 0 0 ];\n%    gearSemantics = [ -1 1 2 3 4"
-      " 5 6 ];\n\n% persistent values are use to inspect changes in the signals\npersistent currentGear;\npersistent pr"
-      "eviousGearSignals;\npersistent lastShiftDownBtn;\npersistent lastshiftUpBtn;\n\n% Write values for the first run"
-      "\nif isempty(previousGearSignals)\n    previousGearSignals = zeros(size(gearButtonSignals));\n    currentGear = "
-      "0;\n    lastShiftDownBtn = 0;\n    lastshiftUpBtn = 0;\nend\n\n% Gear setting logic\nfor i=1:length(gearButtonSi"
-      "gnals)\n    if gearButtonSignals(i) && ~previousGearSignals(i)\n        % If any of the gear signals is enabled,"
-      " use its semantic\n        currentGear = gearSemantics(i); \n        break;\n    elseif previousGearSignals(i) &"
-      "& ~gearButtonSignals(i)\n        % If any of the gear signals is disabled, set gear to 0\n        currentGear = "
-      "0; \n    end\nend\n\n% Gear shifting logic\nif shiftDownBtn && ~lastShiftDownBtn\n    currentGear = currentGear "
-      "- 1;\nend\nif shiftUpBtn && ~lastshiftUpBtn\n    currentGear = currentGear + 1;\nend\n\n% Cap the gear between ["
-      "minGear, maxGear]\nminGear = min(gearSemantics);\nmaxGear = max(gearSemantics);\ncurrentGear = min(max(minGear, "
-      "currentGear), maxGear);\n\n% Store states\npreviousGearSignals = gearButtonSignals;\nlastShiftDownBtn = shiftDow"
-      "nBtn;\nlastshiftUpBtn = shiftUpBtn;\n\ngear = double(currentGear);"
+      script		      "function trust = trustLogic(trustSignals, trustDownBtn, trustUpBtn, trustSemantics)\n\n%also take"
+      " in auto-mode parameter so to know when to do things\n\npersistent currentTrust;\npersistent previousTrust;\nper"
+      "sistent lastDistrustBtn;\npersistent lastTrustBtn;\n\n\nif isempty(previousTrust)\n    previousTrust = 0;\n    c"
+      "urrentTrust = 3;\n    lastDistrustBtn = 0;\n    lastTrustBtn = 0;\nend\n\n%SO INSTEAD OF ==3, TREAT AS AN ARRAY "
+      "WITH THAT INDEX\n%THE trustSignals INPUT IS ACTUALLY AN ARRAY. WE NEED TO FIX DAT\n%FIGURE OUT HOW BUTTON 2 OR 3"
+      " IS REPRESENTED IN THE ARRAY AS INPUT\n\nfor i=1:length(trustSignals)\n    if trustSignals(i) && ~previousTrust("
+      "i)\n        % If any of the gear signals is enabled, use its semantic\n        currentTrust = trustSemantics(i);"
+      " \n        break;\n    elseif previousTrust(i) && ~trustSignals(i)\n        % If any of the gear signals is disa"
+      "bled, set gear to 0\n        currentTrust = 0; \n    end\nend\n\n% Trust adjust is a must\nif (trustSignals == 3"
+      ") && ~lastDistrustBtn\n    currentTrust = currentTrust - 1;\nend\nif (trustSignals == 2) && ~lastTrustBtn\n    c"
+      "urrentTrust = currentTrust + 1;\nend\n\n% Cap the Trust between 1-5\n\ncurrentTrust = min(max(minTrust));\n% Sto"
+      "re statest, currentTrust), maxTrust);\n\npreviousTrust = currentTrust;\nlastDistrustBtn = (trustSignals == 3);\n"
+      "lastTrustBtn = (trustSignals == 2);\n\n\n\ntrust = double(currentTrust);\n"
       editorLayout	      "100 M4x1[10 5 700 500]"
-      fimathString	      "fimath(...\n'RoundMode', 'floor',...\n'OverflowMode', 'wrap',...\n'ProductMode', 'KeepLSB', "
-      "'ProductWordLength', 32,...\n'SumMode', 'KeepLSB', 'SumWordLength', 32,...\n'CastBeforeSum', true)"
-      emlDefaultFimath	      FimathUserSpecified
     }
   }
   data {
     id			    4
-    ssIdNumber		    5
-    name		    "gear"
-    scope		    OUTPUT_DATA
+    ssIdNumber		    4
+    name		    "trustSignals"
+    scope		    INPUT_DATA
     machine		    1
     props {
       array {
@@ -124401,7 +124642,6 @@ Stateflow {
 	primitive		SF_DOUBLE_TYPE
       }
       complexity	      SF_COMPLEX_INHERITED
-      frame		      SF_FRAME_NO
       unit {
 	name			"inherit"
       }
@@ -124411,8 +124651,8 @@ Stateflow {
   }
   data {
     id			    5
-    ssIdNumber		    6
-    name		    "gearButtonSignals"
+    ssIdNumber		    7
+    name		    "trustDownBtn"
     scope		    INPUT_DATA
     machine		    1
     props {
@@ -124436,8 +124676,8 @@ Stateflow {
   }
   data {
     id			    6
-    ssIdNumber		    7
-    name		    "gearSemantics"
+    ssIdNumber		    8
+    name		    "trustUpBtn"
     scope		    INPUT_DATA
     machine		    1
     props {
@@ -124461,9 +124701,9 @@ Stateflow {
   }
   data {
     id			    7
-    ssIdNumber		    8
-    name		    "shiftDownBtn"
-    scope		    INPUT_DATA
+    ssIdNumber		    5
+    name		    "trust"
+    scope		    OUTPUT_DATA
     machine		    1
     props {
       array {
@@ -124472,11 +124712,9 @@ Stateflow {
       type {
 	method			SF_INHERITED_TYPE
 	primitive		SF_DOUBLE_TYPE
-	isSigned		1
-	wordLength		"16"
       }
       complexity	      SF_COMPLEX_INHERITED
-      frame		      SF_FRAME_INHERITED
+      frame		      SF_FRAME_NO
       unit {
 	name			"inherit"
       }
@@ -124486,8 +124724,8 @@ Stateflow {
   }
   data {
     id			    8
-    ssIdNumber		    9
-    name		    "shiftUpBtn"
+    ssIdNumber		    6
+    name		    "trustSemantics"
     scope		    INPUT_DATA
     machine		    1
     props {
@@ -124545,11 +124783,232 @@ Stateflow {
   instance {
     id			    11
     machine		    1
-    name		    "Audi_A8_Sedan_1/HID_Control/Custom_Control/Gear Button Logic"
+    name		    "Audi_A8_Sedan_1/HID_Control/Custom_Control/MATLAB Function"
     chart		    2
   }
-  target {
+  chart {
     id			    12
+    machine		    1
+    name		    "Audi_A8_Sedan_1/HID_Control/Custom_Control/Gear Button Logic"
+    windowPosition	    [606 368.75 213 385]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1920 1080 1.333333333333333]
+    treeNode		    [0 13 0 0]
+    viewObj		    12
+    visible		    1
+    subviewS {
+    }
+    ssIdHighWaterMark	    9
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    chartFileNumber	    10
+    disableImplicitCasting  1
+    eml {
+      name		      "gearButtonLogic"
+    }
+    supportVariableSizing   0
+    firstData		    14
+    firstTransition	    20
+    firstJunction	    19
+  }
+  state {
+    id			    13
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    12
+    treeNode		    [12 0 0 0]
+    superState		    SUBCHART
+    subviewer		    12
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function gear = gearButtonLogic(gearButtonSignals, gearSemantics, shiftDownBtn, shiftUpBtn)\n%eml"
+      "\n\n% example signals for 1 frame:\n%gearButtonSignals = [  0 0 1 0 0 0 0 ];\n%    gearSemantics = [ -1 1 2 3 4 "
+      "5 6 ];\n\n% persistent values are use to inspect changes in the signals\npersistent currentGear;\npersistent pre"
+      "viousGearSignals;\npersistent lastShiftDownBtn;\npersistent lastshiftUpBtn;\n\n% Write values for the first run\n"
+      "if isempty(previousGearSignals)\n    previousGearSignals = zeros(size(gearButtonSignals));\n    currentGear = 0;"
+      "\n    lastShiftDownBtn = 0;\n    lastshiftUpBtn = 0;\nend\n\n% Gear setting logic\nfor i=1:length(gearButtonSign"
+      "als)\n    if gearButtonSignals(i) && ~previousGearSignals(i)\n        % If any of the gear signals is enabled, u"
+      "se its semantic\n        currentGear = gearSemantics(i); \n        break;\n    elseif previousGearSignals(i) && "
+      "~gearButtonSignals(i)\n        % If any of the gear signals is disabled, set gear to 0\n        currentGear = 0;"
+      " \n    end\nend\n\n% Gear shifting logic\nif shiftDownBtn && ~lastShiftDownBtn\n    currentGear = currentGear - "
+      "1;\nend\nif shiftUpBtn && ~lastshiftUpBtn\n    currentGear = currentGear + 1;\nend\n\n% Cap the gear between [mi"
+      "nGear, maxGear]\nminGear = min(gearSemantics);\nmaxGear = max(gearSemantics);\ncurrentGear = min(max(minGear, cu"
+      "rrentGear), maxGear);\n\n% Store states\npreviousGearSignals = gearButtonSignals;\nlastShiftDownBtn = shiftDownB"
+      "tn;\nlastshiftUpBtn = shiftUpBtn;\n\ngear = double(currentGear);"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+      fimathString	      "fimath(...\n'RoundMode', 'floor',...\n'OverflowMode', 'wrap',...\n'ProductMode', 'KeepLSB', "
+      "'ProductWordLength', 32,...\n'SumMode', 'KeepLSB', 'SumWordLength', 32,...\n'CastBeforeSum', true)"
+      emlDefaultFimath	      FimathUserSpecified
+    }
+  }
+  data {
+    id			    14
+    ssIdNumber		    5
+    name		    "gear"
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [12 0 15]
+  }
+  data {
+    id			    15
+    ssIdNumber		    6
+    name		    "gearButtonSignals"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [12 14 16]
+  }
+  data {
+    id			    16
+    ssIdNumber		    7
+    name		    "gearSemantics"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [12 15 17]
+  }
+  data {
+    id			    17
+    ssIdNumber		    8
+    name		    "shiftDownBtn"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [12 16 18]
+  }
+  data {
+    id			    18
+    ssIdNumber		    9
+    name		    "shiftUpBtn"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "Inherit: Same as Simulink"
+    linkNode		    [12 17 0]
+  }
+  junction {
+    id			    19
+    position		    [23.5747 49.5747 7]
+    chart		    12
+    subviewer		    12
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+    linkNode		    [12 0 0]
+  }
+  transition {
+    id			    20
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [28.125 13.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      19
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    12
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    12
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+    linkNode		    [12 0 0]
+  }
+  instance {
+    id			    21
+    machine		    1
+    name		    "Audi_A8_Sedan_1/HID_Control/Custom_Control/Gear Button Logic"
+    chart		    12
+  }
+  target {
+    id			    22
     machine		    1
     name		    "sfun"
     description		    "Default Simulink S-Function Target."

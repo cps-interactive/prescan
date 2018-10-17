@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Experiment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Description="" id="Experiment2JessDelPath" UniqueId="0" TotalSimulationTime="96.15" Built="true" EnableCollisionDetection="false" MaxNumberOfCollisions="5" EnableTestAutomation="false" Generate3DTrajectories="false" VisualizeSensorBeams="false" VisualizeBoundingBoxes="false" Parsed="true" PrecipitationRandomSeed="0" PRESCANVersion="8.3.0" ResourcesDir="Resources" SensorRandomSeed="0" SimulationGenerationHash="51650BA059006CFBCC0CD89DBFEE4B014E41346E597E8424FE61543F5802BFE0" UniqueExperimentIdentifier="322923e7-91cd-4c15-be81-d0b0233581d5" UniqueIdCounter="4593" VisuAidMaxRenderingDistance="750" VisuAidMinRenderingDistance="0.1" WeatherTypeName="None">
+<Experiment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Description="" id="Experiment2JessDelPath" UniqueId="0" TotalSimulationTime="96.15" Built="true" EnableCollisionDetection="false" MaxNumberOfCollisions="5" EnableTestAutomation="false" Generate3DTrajectories="false" VisualizeSensorBeams="false" VisualizeBoundingBoxes="false" Parsed="true" PrecipitationRandomSeed="0" PRESCANVersion="8.3.0" ResourcesDir="Resources" SensorRandomSeed="0" SimulationGenerationHash="5B2E811DEB8E5644D27875C10B3AFA45D0301583D9049CE1BDCCD141717A53F9" UniqueExperimentIdentifier="322923e7-91cd-4c15-be81-d0b0233581d5" UniqueIdCounter="5325" VisuAidMaxRenderingDistance="750" VisuAidMinRenderingDistance="0.1" WeatherTypeName="None">
   <Actors>
     <Actor xsi:type="CyclingCyclist2" Description="" id="CyclingCyclist2_1" UniqueId="1259" SensorIDDetection="true" NumericalID="51" ObjectTypeID="4" ParticipateInCollisionDetection="false" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" MaxWalkingSpeed="1.95" GhostColor="64646464" AnimatedActor="true" UpperBodyClothesMaterial="CottonWool" LowerBodyClothesMaterial="CottonWool" ShoesMaterial="CottonWool" UseReflectiveTexture="false" UpperBodyClothesColor="Red (FFFF0000)" LowerBodyClothesColor="Red (FFFF0000)" ShoesColor="Black (FF000000)" BicycleUniqueId="1258">
       <Location X="298.86141967773437" Y="57.834671020507813" Z="0" />
@@ -3966,7 +3966,7 @@
             <TestAutomationVariable VariableName="MisAlignMountOrient" VariableState="false" />
           </TestAutomationVariables>
           <CameraSensorCameras>
-            <CameraSensorCamera Description="" id="" UniqueId="4592" SubCamPosition="Center">
+            <CameraSensorCamera Description="" id="" UniqueId="5324" SubCamPosition="Center">
               <DriftCamera PosX="0" PosY="0" PosZ="0" OrientX="0" OrientY="0" OrientZ="0" DriftTypePosX="None" DriftTypePosY="None" DriftTypePosZ="None" DriftTypeOrientX="None" DriftTypeOrientY="None" DriftTypeOrientZ="None" />
               <NoiseCamera PosX="0" PosY="0" PosZ="0" OrientX="0" OrientY="0" OrientZ="0" />
               <MisAlignCamera PosX="0" PosY="0" PosZ="0" OrientX="0" OrientY="0" OrientZ="0" />

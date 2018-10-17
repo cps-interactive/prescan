@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.89"
+    ComputedModelVersion    "1.90"
     NumModelReferences	    0
     NumTestPointedSignals   4
     TestPointedSignal {
@@ -1053,9 +1053,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1663.0, 815.0]
-	ZoomFactor		[0.4]
-	Offset			[-307.35822014051882, 2.8826267821750662]
+	Extents			[1289.0, 644.0]
+	ZoomFactor		[1.5]
+	Offset			[10.841779859480523, 20.632626782175087]
       }
       Object {
 	$PropName		"DockComponentsInfo"
@@ -1068,17 +1068,17 @@ Model {
 	UserData		""
 	Floating		[0]
 	DockPosition		"Right"
-	Width			[512]
-	Height			[384]
+	Width			[640]
+	Height			[480]
       }
-      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAADdPwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAACvfwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAASgAAA3QAAAB4AP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAQAAAAr0AAABjAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAANAD///8AAAasAAADdAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAAKwD///8AAAUvAAACvQAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wEAAACR/////wAAAAAAAAAA/////wEAAAEE/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAGV/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAON/////wAAAAAAAAAA/"
+      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAL9/////wAAAAAAAAAA/"
       "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
@@ -1087,11 +1087,11 @@ Model {
   Creator		  "PRESCAN"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "FD401"
+  LastModifiedBy	  "ss7dr"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu May 03 20:56:02 2018"
-  RTWModifiedTimeStamp	  447281762
-  ModelVersionFormat	  "1.%<AutoIncrement:89>"
+  LastModifiedDate	  "Thu Oct 04 17:49:52 2018"
+  RTWModifiedTimeStamp	  460576191
+  ModelVersionFormat	  "1.%<AutoIncrement:90>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -2626,9 +2626,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "40"
+    ZoomFactor		    "150"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "6416"
+    SIDHighWatermark	    "6423"
     Block {
       BlockType		      SubSystem
       Name		      "ANIM_Boy_150_1"
@@ -54533,7 +54533,7 @@ Model {
       BlockType		      SubSystem
       Name		      "Controller"
       SID		      "5"
-      Description	      "7899512C7FA31A570EAEC480030FD3CBA790A6ED0A3492920FA67864C08EC1CE"
+      Description	      "51650BA059006CFBCC0CD89DBFEE4B014E41346E597E8424FE61543F5802BFE0"
       Ports		      []
       Position		      [20, 30, 120, 130]
       ZOrder		      -1
@@ -122873,7 +122873,7 @@ Model {
       ZOrder		      -8
     }
     Annotation {
-      SID		      "6410"
+      SID		      "6417"
       Name		      "======\nNum ID\n======\n51\n21\n52\n53\n136\n137\n138\n139\n140\n141\n142\n143\n144\n145\n146\n147\n7"
       Tag		      "ObjectOverview/data"
       Position		      [710, 30, 746, 272]
@@ -122881,10 +122881,10 @@ Model {
       HorizontalAlignment     "right"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -107
+      ZOrder		      -114
     }
     Annotation {
-      SID		      "6411"
+      SID		      "6418"
       Name		      "=============\nOBU-Beacon ID\n=============\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
       Tag		      "ObjectOverview/data"
       Position		      [766, 30, 843, 272]
@@ -122892,10 +122892,10 @@ Model {
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -108
+      ZOrder		      -115
     }
     Annotation {
-      SID		      "6412"
+      SID		      "6419"
       Name		      "=======\nType ID\n=======\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n1\n1\n1"
       Tag		      "ObjectOverview/data"
       Position		      [863, 30, 905, 272]
@@ -122903,10 +122903,10 @@ Model {
       HorizontalAlignment     "right"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -109
+      ZOrder		      -116
     }
     Annotation {
-      SID		      "6413"
+      SID		      "6420"
       Name		      "========\nType Tag\n========\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\nHuman\n"
       "Human\nHuman\nHuman\nHuman\nCar\nCar\nCar"
       Tag		      "ObjectOverview/data"
@@ -122915,30 +122915,30 @@ Model {
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -110
+      ZOrder		      -117
     }
     Annotation {
-      SID		      "6414"
+      SID		      "6421"
       Name		      "==\nSD\n==\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY\nY"
       Tag		      "ObjectOverview/data"
       Position		      [993, 30, 1008, 272]
       InternalMargins	      [0, 0, 0, 0]
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -111
+      ZOrder		      -118
     }
     Annotation {
-      SID		      "6415"
+      SID		      "6422"
       Name		      "==\nCD\n==\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN"
       Tag		      "ObjectOverview/data"
       Position		      [1028, 30, 1044, 272]
       InternalMargins	      [0, 0, 0, 0]
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -112
+      ZOrder		      -119
     }
     Annotation {
-      SID		      "6416"
+      SID		      "6423"
       Name		      "====================\nName\n====================\nCyclingCyclist2_1\nCyclingCyclist2_2\nCyclingCycl"
       "ist2_3\nCyclingCyclist2_4\nBoy_150_1\nFemale_Regular_wRaincoat_1\nMan_African_1\nMale_Old_White_WithStick_1\nMal"
       "e_Regular_BendingOver_1\nFemale_wLongCoat_1\nMale_Regular_wBicycle_1\nMan_African_2\nCyclingCyclist2_5\nCyclingC"
@@ -122949,7 +122949,7 @@ Model {
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
       ForegroundColor	      "gray"
-      ZOrder		      -113
+      ZOrder		      -120
     }
   }
 }
