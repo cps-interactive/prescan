@@ -1,0 +1,15 @@
+# create sensor mounts and cameras
+CameraSensor_1_mount = visnodes.VisTransform.createTransformNode(r"CameraSensor_1_mount")
+scene.Fiat_Bravo_Hatchback_1.addChild(CameraSensor_1_mount)
+CameraSensor_1_mount.setTranslation(1.49999995231628, 0.4, 1.17999999523163)
+CameraSensor_1_mount.setRotationLegacyYUpAxes(1.5707963267948966, -1, 0, 0)
+
+CameraSensor_1_monoBeam = visviewer.VisCamera(r"CameraSensor_1_monoBeam")
+CameraSensor_1_mount.addChild(CameraSensor_1_monoBeam)
+CameraSensor_1_monoBeam.setTranslation(0, 0, 0)
+CameraSensor_1_monoBeam.setRotationLegacyYUpAxes(1.5707963267948966, 0, 0, -1)
+CameraSensor_1_monoBeam.setProjectionMatrixPerspective(0.80656297037058056, 0.61940592923487225, 0.10000000149011612, 750)
+
+cameras[r"CameraSensor_1"] = VisCameras.CameraInfo(r"CameraSensor_1", CameraSensor_1_monoBeam, visviewer.VisViewerBase.SPECTATOR, True)
+cameras[r"CameraSensor_1"].setSensorDimensions(6.4, 4.8);cameras[r"CameraSensor_1"].setFrameRate(20)
+
